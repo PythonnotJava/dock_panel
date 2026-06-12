@@ -4,7 +4,6 @@ Place your screenshots here before publishing:
 
 1. `demo_layout.png` — Run the app and capture the full IDE-like layout
 2. `drag_drop.png` — Capture while dragging a tab (showing the blue drop indicator)
-3. `maximize.png` — Capture a panel in maximized state
 
 ## Requirements for pub.dev
 

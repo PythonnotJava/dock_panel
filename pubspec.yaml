@@ -19,7 +19,7 @@ screenshots:
   - description: 'IDE-like multi-panel layout with file explorer, editor, terminal, and outline panels.'
     path: screenshots/demo_layout.png
   - description: 'Drag-and-drop tab docking with animated drop zone indicators.'
-    path: screenshots/max.png
+    path: screenshots/drag_drop.png
 
 environment:
   sdk: ^3.12.1
