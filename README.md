@@ -231,9 +231,9 @@ await manager.restore(); // Load saved layout
 
 ## Screenshots
 
-| IDE Layout | Drag & Drop | Maximize |
-|:---:|:---:|:---:|
-| ![Layout](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/demo_layout.png) | ![Drag](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/drag_drop.png) | ![Max](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/maximize.png) |
+|                                                                                                   IDE Layout & Drag & Drop                                            |                                          Maximize                                           |
+|:-------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| ![Layout & Drag](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/demo_layout.png) | ![Max](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/max.png) |
 
 ## Example
 
