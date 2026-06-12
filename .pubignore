@@ -1,0 +1,24 @@
+# Development files
+.claude/
+memory/
+SOUL.md
+USER.md
+*.iml
+.dart_tool/
+.idea/
+
+# Build artifacts
+build/
+
+# Platform-specific build directories
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# Example screenshots (already in screenshots/)
+example/
+
+# Keep lib/, screenshots/, test/
