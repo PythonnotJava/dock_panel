@@ -1,0 +1,23 @@
+name: dock_panel_example
+description: Demo application for the dock_panel package.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.12.1
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  dock_panel:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
