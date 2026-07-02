@@ -1,11 +1,11 @@
-## 0.0.2
+## 0.1.1
 
 - Moved demo application from `lib/main.dart` to `example/` for proper package structure
 - Added `DockPanel.copyWith()` method for convenient partial updates
 - Added `try-catch` error handling to `_persist()` to prevent crashes on storage failures
 - **Enhanced demo:** dark/light theme toggle, `MemoryDockStorage` save/restore, `copyWith()` duplicate-tab demo, interactive file explorer, layout snapshot, panel count in status bar, Welcome panel with feature cards
 
-## 0.0.1
+## 0.1.0
 
 - Initial release
 - Drag-and-drop tab docking (left, right, top, bottom, center)
