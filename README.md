@@ -25,7 +25,7 @@ Powered by **Riverpod** for state management.
 
 ```yaml
 dependencies:
-  dock_panel: ^0.1.0
+  dock_panel: ^latest
 ```
 
 ```bash

@@ -16,6 +16,24 @@ class DockPanel {
   final bool closable;
   final WidgetBuilder builder;
 
+  /// Creates a copy with optionally overridden fields.
+  DockPanel copyWith({
+    String? id,
+    String? title,
+    WidgetBuilder? builder,
+    IconData? icon,
+    bool? closable,
+    bool clearIcon = false,
+  }) {
+    return DockPanel(
+      id: id ?? this.id,
+      title: title ?? this.title,
+      builder: builder ?? this.builder,
+      icon: clearIcon ? null : (icon ?? this.icon),
+      closable: closable ?? this.closable,
+    );
+  }
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) || other is DockPanel && other.id == id;

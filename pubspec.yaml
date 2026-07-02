@@ -3,7 +3,7 @@ description: >
   A dockable, splittable, and draggable panel system for Flutter.
   Build IDE-like layouts with drag-and-drop tab docking, resizable splits,
   panel maximize/restore, and persistent layout state. Powered by Riverpod.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/PythonnotJava/dock_panel
 repository: https://github.com/PythonnotJava/dock_panel
 issue_tracker: https://github.com/PythonnotJava/dock_panel/issues

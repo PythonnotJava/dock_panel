@@ -170,11 +170,16 @@ class DockManager extends Notifier<DockLayout> {
 
   void _persist() {
     if (_storage == null) return;
-    final root = state.root;
-    if (root == null) {
-      _storage!.write({});
-    } else {
-      _storage!.write(_serializeNode(root));
+    try {
+      final root = state.root;
+      if (root == null) {
+        _storage!.write({});
+      } else {
+        _storage!.write(_serializeNode(root));
+      }
+    } catch (e) {
+      // Silently ignore storage failures to prevent crashes.
+      // Callers can implement their own error handling in DockStorage.
     }
   }
 
