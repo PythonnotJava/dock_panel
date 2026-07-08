@@ -7,6 +7,8 @@ A dockable, splittable, and draggable panel system for Flutter. Build IDE-like l
 
 Powered by **Riverpod** for state management.
 
+> dock_panel is maintained by [RemindAI](https://github.com/PythonnotJava/RemindAI)
+
 ![Demo Layout](https://raw.githubusercontent.com/PythonnotJava/dock_panel/main/screenshots/demo_layout.png)
 
 ## Features
